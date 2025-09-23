@@ -51,7 +51,7 @@
                 android:textSize="60sp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnlogin"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginStart="15dp"
@@ -64,7 +64,7 @@
                 android:textStyle="bold" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnSignup"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginStart="15dp"
