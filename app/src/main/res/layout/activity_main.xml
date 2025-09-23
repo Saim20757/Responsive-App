@@ -32,8 +32,9 @@
                 android:layout_height="120dp"
                 android:layout_marginTop="10dp"
                 android:background="#00313535"
-                app:tint="@color/white"
-                app:srcCompat="@drawable/chef" />
+                android:padding="8dp"
+                app:srcCompat="@drawable/chef"
+                app:tint="@color/white" />
 
             <TextView
                 android:id="@+id/cafeHouse"
@@ -41,8 +42,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="30dp"
+                android:background="#03B37171"
                 android:fontFamily="cursive"
                 android:gravity="center"
+                android:padding="8dp"
                 android:text="Cafe House"
                 android:textColor="#FDFDFD"
                 android:textSize="60sp" />
@@ -50,20 +53,42 @@
             <Button
                 android:id="@+id/button"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
+                android:layout_height="60dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn_gradient"
+                android:padding="8dp"
+                android:text="Login"
+                android:textColor="#E6B734"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Button" />
+                android:layout_height="60dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/btn_gradient"
+                android:padding="8dp"
+                android:text="Register"
+                android:textColor="#E6B734"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:layout_margin="40dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Skip"
+                android:textColor="#FEE4A92B"
+                android:textSize="16sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
-</ RelativeLayout>
+</RelativeLayout>
